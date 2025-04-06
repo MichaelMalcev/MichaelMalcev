@@ -10,7 +10,7 @@ for n in range (1,1000):
     g=n%4
     if g==0:
         b="2" + b + "03"
-    if g!=0:
+    elif g!=0:
         d=f(g*5)
         b = b + d
     r = int(b,4)

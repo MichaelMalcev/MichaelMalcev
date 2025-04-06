@@ -1,4 +1,4 @@
-f = open("24 (1).txt").readline()
+f = open("24 (1).txt").readline()`
 s=""
 p=[]
 for i in f:

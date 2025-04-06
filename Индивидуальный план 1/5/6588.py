@@ -8,7 +8,7 @@ for n in range(1,1000):
     b = "1" + b
     if b.count("1")%2==0:
         b= b+"0"
-    if b.count("1")%2!=0:
+    elif b.count("1")%2!=0:
         b= b+"1"
     r=int(b,2)
     if r>180:

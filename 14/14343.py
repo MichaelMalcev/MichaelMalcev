@@ -7,4 +7,3 @@ def f(n,ss):
         n //= ss
     return s
 print(f(a,7))
-
