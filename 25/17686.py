@@ -7,7 +7,7 @@ def f(n):
     return list(d)
 for i in range(700000, 1400000):
     s=f(i)
-    g = []
+    g=[]
     for x in s:
         if x!=7 and x!=i and str(x)[-1::]=="7":
             g.append(x)
